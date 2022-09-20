@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMySql2", "TestMySql2\TestMySql2.csproj", "{61DED99F-9862-4167-8615-81B2C31DBE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMySql2", "TestMySql2\TestMySql2.csproj", "{61DED99F-9862-4167-8615-81B2C31DBE69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConnectDataAnnotation", "TestConnectDataAnnotation\TestConnectDataAnnotation.csproj", "{8CBA14A6-C346-4B85-BDCA-FE6FBCE87660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnection3", "TestConnection3\TestConnection3.csproj", "{E227FC2C-4AF5-4C68-B9C3-C3191903D5AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{61DED99F-9862-4167-8615-81B2C31DBE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DED99F-9862-4167-8615-81B2C31DBE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DED99F-9862-4167-8615-81B2C31DBE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBA14A6-C346-4B85-BDCA-FE6FBCE87660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBA14A6-C346-4B85-BDCA-FE6FBCE87660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBA14A6-C346-4B85-BDCA-FE6FBCE87660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBA14A6-C346-4B85-BDCA-FE6FBCE87660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E227FC2C-4AF5-4C68-B9C3-C3191903D5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E227FC2C-4AF5-4C68-B9C3-C3191903D5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E227FC2C-4AF5-4C68-B9C3-C3191903D5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E227FC2C-4AF5-4C68-B9C3-C3191903D5AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
