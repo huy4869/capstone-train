@@ -1,0 +1,132 @@
+{
+  "lang": "Ngôn ngữ",
+  "common": {
+    "license": " © 2022 Bản quyền bởi EZ Solution"
+  },
+  "footer": {
+    "hotline": "Hotline",
+    "sign_up_consultation": "Đăng kí tư vấn miễn phí",
+    "send": "Gửi",
+    "headquarters": "Trụ sở chính"
+  },
+  "menu": {
+    "about_us": "giới thiệu",
+    "term": "Điều khoản và chính sách",
+    "home": "Trang chủ",
+    "news": "tin tức",
+    "contact": "liên hệ",
+    "product": "sản phẩm",
+    "recruit": "tuyển dụng"
+  },
+  "account": {
+    "email": "Email",
+    "password": "Mật khẩu",
+    "capcha": "Captcha",
+    "remember_me": "Ghi nhớ tôi",
+    "forgot_password": "Quên mật khẩu?",
+    "login_title": "Đăng nhập",
+    "login": "Đăng nhập",
+    "password_new_confirmation": "Nhập lại mật khẩu mới",
+    "password_confirmation": "Nhập lại mật khẩu",
+    "referral_code": "Mã giới thiệu",
+    "register_title": "Nhập thông tin tài khoản",
+    "register_sub_title": "Nhập thông tin tài khoản và mật khẩu mạnh để bảo mật tài khoản của bạn.",
+    "register": "Đăng ký",
+    "set_password": "Đặt mật khẩu",
+    "new_password": "Mật khẩu mới",
+    "reset_password": "Đặt lại mật khẩu",
+    "security_verification": "Xác minh bảo mật",
+    "secure_your_account": "Để bảo mật tài khoản của bạn, vui lòng hoàn thành xác minh sau.",
+    "phoneNumber": "Số điện thoại",
+    "fullName": "Họ và tên",
+    "birthday": "Sinh nhật",
+    "social": "Telegram, Viber, Zalo, Whatsapp",
+    "current_pass": "Mật khẩu hiện tại",
+    "reset_pass": "Đặt lại mật khẩu",
+    "pre_phone": "Code",
+    "phone": "SĐT",
+    "no_account": "Chưa có tài khoản đăng ký",
+    "here": "tại đây",
+    "forgot_title": "Vui lòng nhập email của bạn đã được đăng ký",
+    "send": "Gửi",
+    "back": "Quay về",
+    "home": "trang chủ.",
+    "reset": "Đặt lại"
+  },
+  "validation": {
+    "required": "{_field_} không được để trống.",
+    "email": "Trường {_field_} phải là địa chỉ Email",
+    "float": "Trường {_field_} phải là một số",
+    "max_content_file": "Kích thước file vượt quá mức cho phép. Vui lòng kiểm tra lại.",
+    "accept_file_type": "Chỉ cho phép định dạng JPEG, PNG, và JPG. Vui lòng kiểm tra lại.",
+    "min": "Trường {_field_} tối thiểu {length} ký tự.",
+    "max": "Trường {_field_} trong khoảng {length} ký tự.",
+    "passNotMatch": "Mật khẩu không khớp",
+    "email_format": "Email không đúng định dạng",
+    "referrer_code_min": "Mã giới thiệu phải có 10 kí tự.",
+    "pass_format": "Mật khẩu phải từ 8 kí tự đến 32 ký tự, bao gồm cả chữ, chữ số và kí tự đặc biệt",
+    "insufficient_balance": "Không đủ số dư khả dụng",
+    "phone": "Số điện thoại không hợp lệ",
+    "phone_length": "Số điện thoại phải từ 9 đến 12 ký tự",
+    "code_phone_format": "Sai định dạng đầu số điện thoại",
+    "invalid_2mb_image": "Kích thước file tối đa 2MB",
+    "length_phone": "Số điện thoại phải nằm trong khoảng từ 9 đến 15 ký tự",
+    "captcha_req": "Vui lòng kiểm tra captcha",
+    "agree": "Vui lòng đồng ý các điều khoản"
+  },
+  "message": {
+    "message_error": "Có lỗi xảy ra"
+  },
+  "language": {
+    "vietnamese": "Tiếng Việt",
+    "english": "English"
+  },
+  "error": {
+    "login": "Thông tin đăng nhập không chính xác vui lòng thử lại"
+  },
+  "register": {
+    "title": "Đăng ký",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "birthday": "Ngày tháng năm sinh",
+    "password": "Mật khẩu",
+    "password_title": "Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng",
+    "confirm_password": "Nhập lại mật khẩu",
+    "referral_code": "Mã giới thiệu",
+    "agree": "Tôi đồng ý với các ",
+    "privacy_policy": "Điều khoản & Điều kiện và Chính sách Bảo mật.",
+    "button": "Đăng ký",
+    "already_account": "Đã có tài khoản về"
+  },
+  "otp": {
+    "otpTitle": "Mã Xác Minh",
+    "otpContent": "Để bảo mật tài khoản của bạn, vui lòng hoàn thành xác minh.",
+    "submit": "Xác nhận",
+    "code": "Mã xác minh Email",
+    "notifySent": "Nhập mã gồm 6 chữ số được gửi đến {email}",
+    "notReceived": "Bạn chưa nhận được mã? ",
+    "reqCode1": "Yêu cầu mã mới sau ",
+    "reqCode2": "{time} giây.",
+    "resendCode": "Gửi lại mã",
+    "error": "Mã không hợp lệ"
+  },
+  "network": {
+    "profit_title": "Chi tiết hoa hồng nhận được",
+    "total_profit": "Tổng hoa hồng nhận được: "
+  },
+  "noti": {
+    "success": "Thành công",
+    "send_mail_forgot": "Liên kết đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra email của bạn và kiểm tra liên kết đặt lại mật khẩu.",
+    "reset_success": "Đặt lại mật khẩu thành công. Bạn đã có thể đăng nhập lại với mật khẩu mới",
+    "not_enough_balance": "Số dư của bạn không đủ",
+    "empty": "Không có dữ liệu",
+    "value_0": "Số tiền rút phải lớn hơn 0",
+    "withdraw_success": "Đặt lệnh rút tiền thành công.",
+    "register_success": "Đăng ký thành công",
+    "buy_success": "Mua gói thành công"
+  },
+  "term": {
+    "title": "Điều khoản và chính sách"
+  }
+}
