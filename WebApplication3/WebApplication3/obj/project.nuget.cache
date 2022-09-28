@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uonsa+K55NtTAwSEOCXwe0XGiGcSXHLwHoK2YA9Lwk3Uxyi+R180NL9Cs6PLk3oiQh/8o0ntqpJVwVVSsVJ2oA==",
+  "dgSpecHash": "5ZFJ8md62FEg3hZmT6aosdQLPRxbzOzVoyie/2lIjMPwygy8ve63wwJoMoo61A5AQkxU6Pm63Uedgw3yBwwtmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lelon\\Desktop\\web_dot_net1\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+  "projectFilePath": "C:\\Users\\lelon\\Desktop\\git-stup\\capstone-train\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lelon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lelon\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

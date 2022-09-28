@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form action="/Call/calling" method="post">
+        <div class="form-group">
+            <label class="control-label">phone number</label>
+            <input type="text" name="phone" id="phone" class="form-control" placeholder="input phone number"/>
+        </div>
+
+        <div class="form-group">
+            <button id="Button" type="submit" name="submit" formmethod="post" class="btn btn-secondary btn-sm">Call</button>
+        </div>
+    </form>
+</div>

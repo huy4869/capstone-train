@@ -1,0 +1,113 @@
+﻿@model IEnumerable<WebApplication3.Models.Country>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.continent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.region)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.surfaceArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.indepYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.population)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lifeExpectancy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GNP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GNPOld)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.localName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.governmentForm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.headOfState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.capital)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.code2)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.continent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.region)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.surfaceArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.indepYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.population)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lifeExpectancy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GNP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GNPOld)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.localName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.governmentForm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.headOfState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.capital)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.code2)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.countryCode">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.countryCode">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.countryCode">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Policy;
 
 namespace WebApplication3
 {
@@ -24,16 +25,14 @@ namespace WebApplication3
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-
             services.AddDbContext<MySQLContext>(options =>
                     options.UseMySql(
                         Configuration.GetConnectionString("MySQLContext"),
-                        new MySqlServerVersion(new Version(8, 0, 30))
+                        ServerVersion.AutoDetect( Configuration.GetConnectionString("MySQLContext") )
                     )
             );
 
-            
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,6 +61,7 @@ namespace WebApplication3
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
         }
     }
 }

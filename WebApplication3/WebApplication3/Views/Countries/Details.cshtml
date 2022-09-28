@@ -1,0 +1,102 @@
+﻿@model WebApplication3.Models.Country
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Country</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.continent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.continent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.region)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.region)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.surfaceArea)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.surfaceArea)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.indepYear)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.indepYear)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.population)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.population)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.lifeExpectancy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.lifeExpectancy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GNP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GNP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GNPOld)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GNPOld)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.localName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.localName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.governmentForm)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.governmentForm)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.headOfState)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.headOfState)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.capital)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.capital)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.code2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.code2)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.countryCode">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -7528,6 +7528,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
@@ -7540,11 +7541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lelon\\Desktop\\web_dot_net1\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+      "projectUniqueName": "C:\\Users\\lelon\\Desktop\\git-stup\\capstone-train\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
       "projectName": "WebApplication3",
-      "projectPath": "C:\\Users\\lelon\\Desktop\\web_dot_net1\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+      "projectPath": "C:\\Users\\lelon\\Desktop\\git-stup\\capstone-train\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
       "packagesPath": "C:\\Users\\lelon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lelon\\Desktop\\web_dot_net1\\WebApplication3\\WebApplication3\\obj\\",
+      "outputPath": "C:\\Users\\lelon\\Desktop\\git-stup\\capstone-train\\WebApplication3\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7573,6 +7574,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.17, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.17, )"
